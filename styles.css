@@ -1,0 +1,70 @@
+/* Defaut */
+body{
+  background-color: #f5f5f5;
+  font-family: "Roboto" !important;
+}
+a:hover{
+  color: #fff !important;
+}
+strong, b{
+  font-weight:700 !important;
+}
+
+/* Header */
+.header__primary{
+  background-color:#38B491;
+}
+/* Nav bar */
+
+/* Modifying BS */
+.navbar{
+  border-bottom: 1px solid #fff;
+}
+
+/* MediaQuery NavBar */
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !important;
+  }
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+.navbar-toggler:hover {
+  transition: .2s;
+  background-color:rgba(0,0,0,0.1);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+.nav-item {
+  padding: 0px 8px;
+}
+
+ul li a{
+  color: #fff !important;
+}
+.header__title{
+  padding: 60px 16px;
+}
+.title{
+  color: #fff !important;
+  text-align: center;
+}
+.subtitle{
+  color: #fff !important;
+  text-align: center;
+  font-weight: 400;
+}
+.content{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
